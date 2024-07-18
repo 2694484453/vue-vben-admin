@@ -34,9 +34,9 @@
   });
   // perf 能读取所有.env.xxx文件最好, 另外key与--mode XXX最好相同
   const addresses = ref({
-    development: 'http://www.a.com',
-    test: 'http://www.b.com',
-    prod: 'http://www.c.com',
+    development: 'http://localhost:9099', //'http://www.a.com',
+    test: 'https://my-go-test.gpg123.vip',
+    prod: 'https://my-go.gpg123.vip',
   });
   const radioStyle = ref({
     display: 'flex',
